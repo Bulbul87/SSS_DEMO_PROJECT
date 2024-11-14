@@ -18,8 +18,8 @@ function App() {
                 <Routes>
                     
                     <Route exact path="/" element={<Page1/>} />
-                    <Route exact path="abo" element={ <Page2/>} />
-                    <Route exact path="Con" element={<Page3/>} />
+                    <Route exact path="/about" element={ <Page2/>} />
+                    <Route exact path="/contact" element={<Page3/>} />
                     
                 </Routes>
                 
